@@ -1,0 +1,23 @@
+.cabecera{
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+.divHeader{
+    display: flex;
+}
+
+@media(max-width:768px){
+    .cabecera{
+        background-color: rgba(217, 217, 217, 1);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.5%;
+    }
+    .imgLogo{
+        width: 18%;
+    }
+}

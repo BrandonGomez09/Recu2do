@@ -1,0 +1,33 @@
+.seccionInformacion{
+   display: flex;
+   max-width: 100%;
+}
+.seccionInformacionDatos{
+width: 68%;
+background-color: rgba(243, 243, 243, 1);
+margin-right: 1%;
+margin-top: 2%;
+padding: 2%;
+}
+.seccionAmigos{
+    background-color: rgba(243, 243, 243, 1);
+    width: 28%;
+    margin-top: 2%;
+    padding: 2%;
+}
+.seccionAmigos div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+}
+.seccionAmigos div:hover{
+    background-color: rgb(183, 183, 183);
+
+}

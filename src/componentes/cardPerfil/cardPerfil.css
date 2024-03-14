@@ -1,0 +1,53 @@
+.perfilPresentacion{
+    margin-top: 1.5%;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    width: 100%;
+    background-image: url('../../assets/portada.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(243, 243, 243, 1);
+}
+.perfilPresentacion div:nth-child(2){
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+.hobbies{
+    color: rgb(181, 181, 181);
+}
+.hobbies p {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+
+}
+.perfilPresentacion img {
+    width: 30%;
+    margin-top: 15em;
+    margin-left: 2em;
+    border-radius: 100%;
+}
+.perfilPresentacion a{
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.perfilPresentacion a:nth-child(1){
+    background-image: url('../../assets/Icons/facebookIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.3em;
+    margin-left: 1em;
+}
+.perfilPresentacion a:nth-child(2){
+    background-image: url('../../assets/Icons/igIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.3em;
+}

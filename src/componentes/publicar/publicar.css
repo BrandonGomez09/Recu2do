@@ -1,0 +1,42 @@
+.publicar{
+    margin-top: 2%;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    flex-direction: column;
+    height: 7em;
+    /* padding: 3%; */
+}
+.publicarSecciones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.publicarSecciones2{
+    max-width: 100%;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    margin-right: 5%;
+    /* background-color: black; */
+}
+
+.fotoPerfil{
+    width: 15%;
+    border-radius: 100%;
+    margin: 1%;
+}
+.palomita{
+    padding-left: 2%;
+    width: 7%;
+    cursor: pointer;
+}
+.publicar input{
+    width: 70%;
+    height: 2em;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    margin-left: 2%;
+}

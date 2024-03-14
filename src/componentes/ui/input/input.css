@@ -1,0 +1,14 @@
+.inputbuscar{
+    background-image: url('../../../assets/Icons/search.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 5%;
+    text-decoration: none;
+    outline: none;
+    color: gray;
+}
+@media(max-width:768px){
+    .inputbuscar{
+        width: 18%;
+    }
+}
